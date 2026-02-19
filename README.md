@@ -1,41 +1,48 @@
-# Weather Prediction
+# Weather Prediction Project
 
-## Project Description
-Weather Prediction is an innovative application designed to provide accurate weather forecasts using advanced machine learning algorithms. The project aims to help users make informed decisions based on real-time weather data.
+## Overview
+This project is a weather prediction application that utilizes a Next.js frontend, React components, and a Flask backend to provide users with accurate weather forecasts.
 
 ## Features
-- **Real-time Weather Updates**: Get live weather updates for any location.
-- **Forecasting**: Access daily and weekly forecasts.
-- **User-Friendly Interface**: Easy navigation and interaction.
-- **Location Tracking**: Automatically track weather based on your location.
+- **Next.js Frontend**: A server-side rendered React application that allows for fast page loads and great user experience.
+- **React Components**: Modular components to build interactive UIs efficiently.
+- **Flask Backend**: A lightweight backend framework that handles all API requests and data processing for weather predictions.
 
-## Technology Stack
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **APIs**: OpenWeatherMap API for weather data
-- **Machine Learning**: Python, scikit-learn for predictive modeling
+## Installation
+To run the project locally, clone the repository and install the requirements:
 
-## Installation Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AdityaK1301/Weather-Prediction.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Weather-Prediction
-   ```
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
-4. Set up the environment variables by creating a `.env` file and adding your API keys.
-5. Start the application:
-   ```bash
-   npm start
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/AdityaK1301/Weather-Prediction.git
 
-## Usage Guidelines
-- Open your web browser and navigate to `http://localhost:3000` to start using the application.
-- Input the location for which you want weather information in the search bar.
-- Explore the various features to get the most out of the weather prediction tool.
+# Navigate to the project directory
+cd Weather-Prediction
+
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+pip install -r requirements.txt
+```
+
+## Usage
+1. Start the Flask backend:
+   ```bash
+   cd backend
+   python app.py
+   ```
+2. Start the Next.js frontend:
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+3. Open your browser and navigate to `http://localhost:3000` to access the application.
+
+## API Endpoints
+- **/api/weather**: Get current weather data based on the user's location.
+- **/api/forecast**: Get weather forecasts for the next few days.
+
+## Contributing
+If you’d like to contribute to the project, feel free to fork the repository and submit a pull request with your enhancements.
