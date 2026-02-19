@@ -22,9 +22,6 @@ cd Weather-Prediction
 cd frontend
 npm install
 
-# Install backend dependencies
-cd ../backend
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -43,6 +40,14 @@ pip install -r requirements.txt
 ## API Endpoints
 - **/api/weather**: Get current weather data based on the user's location.
 - **/api/forecast**: Get weather forecasts for the next few days.
+
+##Screenshots
+<img width="811" height="459" alt="weather0" src="https://github.com/user-attachments/assets/8062e541-c418-4097-91f7-a13b96b21c70" />
+<img width="1120" height="957" alt="weather1" src="https://github.com/user-attachments/assets/044c42d8-98e6-4ce9-a316-810b745d9438" />
+<img width="1053" height="957" alt="weather2" src="https://github.com/user-attachments/assets/5918da54-bd9b-4064-bbad-9297f720eda1" />
+
+
+
 
 ## Contributing
 If you’d like to contribute to the project, feel free to fork the repository and submit a pull request with your enhancements.
